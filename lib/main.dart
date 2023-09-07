@@ -24,8 +24,8 @@ class Myapp extends StatelessWidget {
             CircleAvatar(
               backgroundColor: Colors.amber,
               radius: 68.0,
-              backgroundImage: NetworkImage('https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg'),
-              //backgroundImage: AssetImage("assets/image/hand.jpg"),
+              //backgroundImage: NetworkImage('https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg'),
+              backgroundImage: AssetImage("assets/image/hand.jpg"),
             ),
             SizedBox(
               height: 5.0,
