@@ -32,7 +32,7 @@ class Myapp extends StatelessWidget {
                 color: Colors.white,
                 fontSize: 24.0,
                 fontWeight: FontWeight.w700,
-                //fontFamily: 'Lobster',
+                fontFamily: 'Lobster',
               ),
             ),
             Text(
@@ -94,17 +94,17 @@ class Myapp extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Image.asset(
-                "assets/images/facebook.jpg", 
+                "assets/image/facebook.png", 
                 height: 60,
               ),
               SizedBox(width: 20.0,),
               Image.asset(
-                "assets/images/instagram.jpg", 
+                "assets/image/instagram.png", 
                 height: 60,
               ),
               SizedBox(width: 20.0,),
               Image.asset(
-                "assets/images/twitter.jpg", 
+                "assets/image/twitter.png", 
                 height: 60,
               )
             ],
