@@ -1,7 +1,3 @@
-
-import 'dart:ffi';
-import 'dart:js_util';
-
 import 'package:flutter/material.dart';
 
 void main(List<String>args){
@@ -23,7 +19,7 @@ class Myapp extends StatelessWidget {
           children: [
             CircleAvatar(
               backgroundColor: Colors.amber,
-              radius: 68.0,
+              radius: 60.0,
               //backgroundImage: NetworkImage('https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg'),
               backgroundImage: AssetImage("assets/image/hand.jpg"),
             ),
